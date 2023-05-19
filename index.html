@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style-new.css">
+  <!--style>
+
+  </style-->
+</head>
+<body>
+  <header>
+    <h1>P2P Text Chat</h1>
+    <p>WebRTC & Scaledrone</p>
+  </header>
+  <section>
+  <div class="content">
+    <div class="messages">
+
+    </div>
+    <form class="footer" onsubmit="return false;">
+      <input type="text" placeholder="Your message../Ваше сообщение...">
+      <button type="submit">Send/Отправить</button>
+    </form>
+  </div>
+
+  <template data-template="message">
+    <div class="message">
+      <div class="message__name"></div>
+      <div class="message__bubble"></div>
+    </div>
+  </template>
+</section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
